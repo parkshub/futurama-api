@@ -1,0 +1,32 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+section.seasonIndex > section > h3 {
+  display: inline-block;
+}
+section.seasonIndex > section > span {
+  display: block;
+}
+
+span {
+  font-style: italic;
+}

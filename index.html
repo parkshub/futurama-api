@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Futurama Index</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Futurama Index</h1>
+		
+		<section class="seasonIndex">
+			<h2>Episode lookup</h2>
+			<label for="season">Seasons 1 to 9:</label>
+			<input id='season' name="season" type="number" min="1" max="9">
+			<label for="episode">Episode:</label>
+			<input id='episode' name='episode' type="number">
+			<button id='episodeButton' type="button" name="button">Blast off</button>
+			<section>
+				<h3 id="seasonNum"></h3>
+				<h3 id="episodeNum"></h3>
+			</section>
+			<section>
+				<span id="airDate"></span>
+				<span id="writer"></span>
+			</section>
+			<p id="episodeDesc"></p>
+		</section>
+
+		<section class="charIndex">
+			<h2>Character lookup</h2>
+
+		<!-- <form action="/action_page.php"> -->
+			<label for="characters">Choose a character:</label>
+			
+			<select id="characters" name="characters">
+			</select>
+			<button id="characterButton">Blast off</button>
+
+			<h3 id="name"></h3>
+			<img src="" alt="">
+			<p id="gender"></p>
+			<p id="species"></p>
+			<p id="homePlanet"></p>
+			<p id="occupation"></p>
+			<p id="catachPhraseHeading"></p>
+			<p id="catchPhrase"></p>
+			<!-- </form> -->
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
